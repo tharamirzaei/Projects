@@ -1,0 +1,268 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?iqu2vz');
+  src:  url('../fonts/icomoon.eot?iqu2vz#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?iqu2vz') format('truetype'),
+    url('../fonts/icomoon.woff?iqu2vz') format('woff'),
+    url('../fonts/icomoon.svg?iqu2vz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-iran .path1:before {
+  content: "\e900";
+  color: rgb(115, 175, 0);
+}
+.icon-iran .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(255, 75, 85);
+}
+.icon-iran .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path5:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path6:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path7:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path8:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path9:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path10:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path11:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path12:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path13:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path14:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path15:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path16:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path17:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path18:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path19:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path20:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path21:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path22:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path23:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path24:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path25:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path26:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path27:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path28:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path29:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path30:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path31:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path32:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path33:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path34:before {
+  content: "\e921";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path35:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path36:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path37:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path38:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path39:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(245, 245, 245);
+}
+.icon-iran .path40:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(255, 75, 85);
+}
+.icon-iran .path41:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(255, 75, 85);
+}
+.icon-iran .path42:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(255, 75, 85);
+}
+.icon-iran .path43:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(255, 75, 85);
+}
+.icon-hour-glass:before {
+  content: "\e979";
+}
+.icon-stats-bars:before {
+  content: "\e99c";
+}
+.icon-rocket:before {
+  content: "\e9a5";
+}
+.icon-bin:before {
+  content: "\e9ac";
+}
+.icon-flag:before {
+  content: "\e9cc";
+}
+.icon-star-empty:before {
+  content: "\e9d7";
+}
+.icon-smile:before {
+  content: "\e9e1";
+}
+.icon-smile2:before {
+  content: "\e9e2";
+}
+.icon-ctrl:before {
+  content: "\ea50";
+}

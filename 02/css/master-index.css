@@ -1,0 +1,165 @@
+/* css for header */
+#header {
+  width: 100%;
+  min-height: 300px;
+  background: url(../images/12.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.container > div {
+  padding: 0;
+}
+
+.container > div > h1 {
+  color: #43566b;
+  margin: 0;
+  margin: 50px 0;
+}
+
+.container > div > span {
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.container > div:last-child {
+  text-align: right;
+}
+
+.container > div > .btn {
+  color: #43566b;
+  margin: 50px 0;
+}
+
+@media screen and (max-width: 767px) {
+  #header > .container > div {
+    text-align: center;
+  }
+}
+
+/* css for row */
+
+.row > div {
+  text-align: center;
+  padding: 15px;
+}
+
+.row > div h2,
+.row > div h3,
+.row > div p {
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-transform: capitalize;
+  font-size: 25px;
+  color: #333;
+}
+
+.row > div h2 {
+  padding: 10px 30px;
+  text-align: left;
+}
+
+.row > div h3 {
+  background-color: #333;
+  color: #d9d9d9;
+}
+
+.row > div > p {
+  font-size: 18px;
+  margin-bottom: 0;
+  padding: 66px 46px;
+}
+
+@media screen and (max-width: 1199px) {
+  .row > div h3 {
+    padding: 8px 30px;
+  }
+
+  .row > div p {
+    font-size: 16px;
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .row > div h3 {
+    padding: 8px 30px;
+  }
+
+  .row > div p {
+    font-size: 14px;
+    padding: 10px 5px;
+  }
+}
+.bd{
+
+  border-radius: 5px;
+}
+.slide .list-box {
+  border-radius: 5px;
+}
+
+
+ul,
+li {
+  list-style: none;
+}
+
+.row > div > ul {
+  background-color: #333;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.row > div > ul > li {
+  padding: 10px 0;
+}
+
+li > a {
+  color: #d9d9d9;
+  font-size: 17px;
+  font-variant: small-caps;
+}
+
+.row > div > .title-news {
+  margin: 15px 0;
+}
+.row > div > .title-news:first-child {
+  margin: 0;
+}
+
+.row > div > .title-news > figure {
+  margin-bottom: 10px;
+}
+
+.p-news {
+  text-align: justify;
+  padding: 20px;
+}
+
+.tara {
+  background-color: #333;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+  text-align: left;
+}
+.tara > .btn {
+  font-size: 16px;
+  font-variant: small-caps;
+}
+
+
+
+
+
+/* css for footer */
+footer {
+  background-color: #333;
+  text-align: center;
+  padding: 40px 0;
+  color: #d9d9d9;
+}

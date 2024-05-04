@@ -1,0 +1,32 @@
+/* ------- color --------  */
+.text-lg {
+    color: lightgray;
+  }
+  .text-lg-dark {
+    color: #606060;
+  }
+  .text-gr {
+    color: #b1b3ad;
+  }
+  .text-pi {
+    color: #dc2269;
+  }
+  .text-bl {
+    color: #afbbc7;
+  }
+  
+  .bg-lg {
+    background-color: lightgray;
+  }
+  .bg-lg-dark {
+    background-color: #606060;
+  }
+  .bg-gr {
+    background-color: #b1b3ad;
+  }
+  .bg-pi {
+    background-color: #dc2269;
+  }
+  .bg-bl {
+    background-color: #afbbc7;
+  }
