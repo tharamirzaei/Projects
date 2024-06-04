@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 12px;
+  font-family: vazir, Arial, Helvetica, sans-serif;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/Vazir.eot");
+  src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "shuttle-xregular";
+  src: url("../fonts/shuttle-x-webfont.eot");
+  src: url("../fonts/shuttle-x-webfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/shuttle-x-webfont.woff2") format("woff2"),
+    url("../fonts/shuttle-x-webfont.woff") format("woff"),
+    url("../fonts/shuttle-x-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  background: url(../images/background-2.png) no-repeat center center;
+  background-size: cover;
+  margin: 0 auto;
+  max-width: 767px;
+  display: flex;
+  padding-left: 2%;
+  justify-content: space-around;
+  position: relative;
+  & > nav {
+    position: relative;
+    background-color: #c9d7dde8;
+    height: 250vh;
+    & > ul {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      & > li {
+        width: 100%;
+        padding: 10px 0;
+        & > a {
+          display: block;
+          text-decoration: none;
+          color: #333;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          & > img {
+            width: 50%;
+            margin-bottom: 15px;
+          }
+          & > span {
+            display: block;
+            font-size: clamp(0.6rem, 0.8vw, 1.1rem);
+            margin-bottom: 10px;
+          }
+          & > .line {
+            width: 80%;
+            height: 1px;
+            background-color: #333;
+          }
+        }
+      }
+    }
+  }
+  & > main {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    & > div {
+      position: absolute;
+      top: 100%;
+      right: 0;
+/*       border: 3px solid yellow; */
+      background: url(../images/background-2.png) no-repeat center center;
+      background-size: cover;
+      & > .header {
+        width: 100%;
+        height: 50vh;
+        background: url(../images/header.jpg) no-repeat center center;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(#3333331e, #33333365, #0b0b0b);
+        }
+        & > h2 {
+          font-family: shuttle-xregular, sans-serif;
+          letter-spacing: 3px;
+          position: absolute;
+          top: 55%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: clamp(2rem, 2.5vw, 2.5rem);
+          color: whitesmoke;
+          z-index: 10;
+        }
+      }
+      & > .child {
+        width: 100%;
+        height: 50vh;
+        padding: 0 3%;
+        display: flex;
+        align-items: center;
+        & > figure {
+          margin: 0;
+          padding: 2% 0;
+          position: relative;
+          & > img {
+            width: 70%;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+            position: relative;
+            z-index: 1;
+          }
+          & > .paint {
+            position: absolute;
+            transform-origin: top left;
+            top: 70%;
+            left: 70%;
+            rotate: 45deg;
+            z-index: 0;
+            scale: 0;
+            transition: 0.3s;
+            opacity: 0.7;
+          }
+          & > .paint-2 {
+            rotate: 135deg;
+            top: 110%;
+            left: 50%;
+          }
+          & > .paint-4 {
+            rotate: 135deg;
+            top: 90%;
+            left: 40%;
+          }
+          & > .paintscale {
+            scale: 1;
+          }
+        }
+        & > .text {
+          border-right: 1px dashed whitesmoke;
+          text-align: right;
+          color: whitesmoke;
+          padding: 0 3%;
+          & > h4 {
+            font-size: clamp(1rem, 0.8vw, 1.2rem);
+            margin: 0;
+            transform: translateY(-40px) scale(0);
+            transition: 0.8s;
+            transform-origin: bottom right;
+          }
+          & > .h4scale {
+            transform: translateY(0) scale(1);
+          }
+          & > p {
+            font-size: clamp(0.5rem, 0.5vw, 1rem);
+            color: lightgray;
+            margin: 15px 0;
+            width: 100% !important;
+          }
+          & > .price {
+            text-align: left;
+            direction: rtl;
+            & > span,
+            & > b {
+              margin: 0 3px;
+              font-size: clamp(0.6rem, 0.5vw, 1rem);
+            }
+          }
+        }
+      }
+    }
+    & > div:first-child {
+      top: 0;
+      right: 0;
+    }
+  }
+}

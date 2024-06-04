@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 12px;
+  font-family: vazir, Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/Vazir.eot");
+  src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"), url("../fonts/Vazir.woff") format("woff"), url("../fonts/Vazir.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "shuttle-xregular";
+  src: url("../fonts/shuttle-x-webfont.eot");
+  src: url("../fonts/shuttle-x-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/shuttle-x-webfont.woff2") format("woff2"), url("../fonts/shuttle-x-webfont.woff") format("woff"), url("../fonts/shuttle-x-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+ul {
+  list-style: none;
+}
+
+section {
+  background: url(../images/background-2.png) no-repeat center center;
+  background-size: cover;
+  margin: 0 auto;
+  max-width: 767px;
+  display: flex;
+  padding-left: 2%;
+  justify-content: space-around;
+  position: relative;
+}
+section > nav {
+  position: relative;
+  background-color: rgba(201, 215, 221, 0.9098039216);
+  height: 250vh;
+}
+section > nav > ul {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section > nav > ul > li {
+  width: 100%;
+  padding: 10px 0;
+}
+section > nav > ul > li > a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+section > nav > ul > li > a > img {
+  width: 50%;
+  margin-bottom: 15px;
+}
+section > nav > ul > li > a > span {
+  display: block;
+  font-size: clamp(0.6rem, 0.8vw, 1.1rem);
+  margin-bottom: 10px;
+}
+section > nav > ul > li > a > .line {
+  width: 80%;
+  height: 1px;
+  background-color: #333;
+}
+section > main {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+section > main > div {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  /*       border: 3px solid yellow; */
+  background: url(../images/background-2.png) no-repeat center center;
+  background-size: cover;
+}
+section > main > div > .header {
+  width: 100%;
+  height: 50vh;
+  background: url(../images/header.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+section > main > div > .header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(51, 51, 51, 0.1176470588), rgba(51, 51, 51, 0.3960784314), #0b0b0b);
+}
+section > main > div > .header > h2 {
+  font-family: shuttle-xregular, sans-serif;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: clamp(2rem, 2.5vw, 2.5rem);
+  color: whitesmoke;
+  z-index: 10;
+}
+section > main > div > .child {
+  width: 100%;
+  height: 50vh;
+  padding: 0 3%;
+  display: flex;
+  align-items: center;
+}
+section > main > div > .child > figure {
+  margin: 0;
+  padding: 2% 0;
+  position: relative;
+}
+section > main > div > .child > figure > img {
+  width: 70%;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+section > main > div > .child > figure > .paint {
+  position: absolute;
+  transform-origin: top left;
+  top: 70%;
+  left: 70%;
+  rotate: 45deg;
+  z-index: 0;
+  scale: 0;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+section > main > div > .child > figure > .paint-2 {
+  rotate: 135deg;
+  top: 110%;
+  left: 50%;
+}
+section > main > div > .child > figure > .paint-4 {
+  rotate: 135deg;
+  top: 90%;
+  left: 40%;
+}
+section > main > div > .child > figure > .paintscale {
+  scale: 1;
+}
+section > main > div > .child > .text {
+  border-right: 1px dashed whitesmoke;
+  text-align: right;
+  color: whitesmoke;
+  padding: 0 3%;
+}
+section > main > div > .child > .text > h4 {
+  font-size: clamp(1rem, 0.8vw, 1.2rem);
+  margin: 0;
+  transform: translateY(-40px) scale(0);
+  transition: 0.8s;
+  transform-origin: bottom right;
+}
+section > main > div > .child > .text > .h4scale {
+  transform: translateY(0) scale(1);
+}
+section > main > div > .child > .text > p {
+  font-size: clamp(0.5rem, 0.5vw, 1rem);
+  color: lightgray;
+  margin: 15px 0;
+  width: 100% !important;
+}
+section > main > div > .child > .text > .price {
+  text-align: left;
+  direction: rtl;
+}
+section > main > div > .child > .text > .price > span, section > main > div > .child > .text > .price > b {
+  margin: 0 3px;
+  font-size: clamp(0.6rem, 0.5vw, 1rem);
+}
+section > main > div:first-child {
+  top: 0;
+  right: 0;
+}/*# sourceMappingURL=menu.css.map */
